@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Full height of the viewport */
+        }
+
+        h2 {
+            color: #444;
+            text-align: center;
+        }
+
+        form {
+            max-width: 500px;
+            /* Maximum width of the form */
+            width: 100%;
+            /* Makes form responsive */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        label {
+            margin-top: 10px;
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type=number],
+        select {
+            width: calc(100% - 16px);
+            /* Adjust width considering padding */
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+            /* Makes sure the padding doesn't affect the overall width */
+        }
+
+        input[type=submit] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            /* Makes the button full width */
+        }
+
+        input[type=submit]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/" method="post">
+        <h2>Property Information Form</h2>
+        <label for="area">Area (sqft):</label>
+        <input type="number" id="area" name="area" min="0" required>
+
+        <label for="bedrooms">Bedrooms:</label>
+        <input type="number" id="bedrooms" name="bedrooms" min="0" required>
+
+        <label for="bathrooms">Bathrooms:</label>
+        <input type="number" id="bathrooms" name="bathrooms" min="0" required>
+
+        <label for="location">Location:</label>
+        <select id="location" name="location" required>
+            <option value="">Select a location</option>
+            <option value="Location1">Location1</option>
+            <option value="Location2">Location2</option>
+            <option value="Location3">Location3</option>
+            <option value="Location4">Location4</option>
+            <option value="Location5">Location5</option>
+        </select>
+
+        <label for="age">Age of Property (Years):</label>
+        <input type="number" id="age" name="age" min="0" required>
+
+        <label for="garage">Garage (spaces):</label>
+        <input type="number" id="garage" name="garage" min="0" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <div>
+
+   
+    <i><b>Given the area size of:</b> {{area_input}} </i><br><br>
+    <i><b>Given the number of bedrooms to be:</b> {{bedrooms_input}} </i><br><br>
+    <i><b>Given the number of bathrooms to be:</b> {{bathrooms_input}} </i><br><br>
+    <i><b>The location is:</b> {{location_input}} </i><br><br>
+    <i><b>Given the number of age of the building is:</b> {{age_input}} </i><br><br>
+    <i><b>Given the number of garage to be:</b> {{garage_input}} </i><br><br>
+    <br>
+    <br>
+    <i><b>The price of the building is:</b> {{outcome}} </i><br><br>
+
+    
+    </div>
+    
+</body>
+
+</html>
