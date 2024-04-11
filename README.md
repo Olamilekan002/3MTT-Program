@@ -39,8 +39,9 @@ These are some of the hands-on sessions with the participants
 
 ## Week 10: Reinforcement Learning
 -  Basics of reinforcement learning, use cases.
-- Project: A simple reinforcement learning model.
 
+## Deployment
+  
 ## Week 11-12: AI Ethics and Responsible AI / Capstone Project
 - Bias in AI, ethical considerations, responsible AI practices.
 - Capstone Project
