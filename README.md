@@ -1,5 +1,6 @@
-# 3MTT-Program
-As a Data Scientist coach at 3MTT, a Nigeria program, organized by the Federal Ministry of Communications, Innovation & Digital Economy under the visionary leadership of Dr. ‘Bosun Tijani.
+# 3MTT-Program-AI/ML
+
+As a Data Science trainer at [AI] Academy, a pilot training provider for the 3MTT program, where I coached 3MTT fellows on AI/ML. The 3MTT program is a Nigeria program, organized by the Federal Ministry of Communications, Innovation & Digital Economy under the visionary leadership of Dr. ‘Bosun Tijani.
 
 These are some of the hands-on sessions with the participants
 
