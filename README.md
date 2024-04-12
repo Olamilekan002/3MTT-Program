@@ -36,7 +36,7 @@ These are some of the hands-on sessions with the participants
 
 ## Week 8: Natural Language Processing (NLP)
 - Prompt Engineering, Text processing, sentiment analysis, chatbots.
-- Project: [A basic NLP model to classify text data.](...)
+- Project: [A basic NLP model to classify text data.](https://github.com/Olamilekan002/3MTT-Program/blob/main/NLP_Hands_on.ipynb)
 
 ## Week 9: Computer Vision
 -  Simple Image Classification.
@@ -46,6 +46,7 @@ These are some of the hands-on sessions with the participants
 -  Basics of reinforcement learning, use cases.
 
 ## [Deployment](https://github.com/Olamilekan002/3MTT-Program/tree/main/Deployment)
+- A local deployment of the Supervised ML
   
 ## Week 11-12: AI Ethics and Responsible AI / Capstone Project
 - Bias in AI, ethical considerations, responsible AI practices.
